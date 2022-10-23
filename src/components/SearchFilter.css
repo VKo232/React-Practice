@@ -1,0 +1,7 @@
+.searchbar {
+    margin: 5px 5px 5px 5px;
+    outline: 0;
+    border-width: 0 0 2px;
+    padding: 15px 10px 15px 10px;
+    font: 1.4em "Fira Sans", sans-serif;
+}

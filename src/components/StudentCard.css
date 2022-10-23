@@ -1,0 +1,52 @@
+.Student_Card img {
+    border-radius: 50%;
+    border: solid rgba(0, 0, 0, 0.306);
+    border-width: 1px;
+    margin: 40px 40px 20px 40px;
+    width:100px;
+    height:100px;
+  }
+
+.Student_Card {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: solid rgba(0, 0, 0, 0.065);
+    
+}
+.Student_Card p {
+    margin: 2px 2px 0 20px;
+    font: 1.3em "Fira Sans", sans-serif;
+}
+.Student_Card h1 {
+    margin-bottom: 10px;
+}
+
+.testscores {
+    margin-top: 20px;
+}
+
+.toggle {
+    width:40px;
+    height:40px;
+    margin-left: auto;
+    margin-top:20px;
+    /* background: white; */
+    border: transparent;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px 40px;
+
+}
+.not-expanded {
+    background-image: url(../plus.png);
+    
+}
+.expanded {
+    background-image: url(../minus.png);
+}
+
+.tag {
+    background-color: rgba(85, 85, 85, 0.673);
+}
